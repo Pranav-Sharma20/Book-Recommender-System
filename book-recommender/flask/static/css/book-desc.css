@@ -1,0 +1,68 @@
+*, html {
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+a {
+    color: #333 !important;
+}
+
+.container-nav {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.card-header {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em !important;
+}
+
+img {
+    max-width: 125px;
+    max-height: 150px;
+    margin: auto;
+}
+
+.form-group {
+    text-align: center;
+    padding: 0em 2em;
+}
+
+.rating_form {
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.card-text.description {
+    font-size: 0.85em;
+    max-width: 400px;
+    margin: auto;
+    padding: 2em;
+}
+
+.card-body {
+    text-align: center;
+}
+
+table {
+    max-width: 130px;
+    margin: auto;
+}
+
+#card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

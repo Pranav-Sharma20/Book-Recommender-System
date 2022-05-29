@@ -1,0 +1,23 @@
+.back{
+    background: #0b0445;
+    background: -webkit-linear-gradient(-135deg, #1f1f98, #ffffff);
+    background: -o-linear-gradient(-135deg, #1f1f98, #ffffff);
+    background: -moz-linear-gradient(-135deg, #1f1f98, #ffffff);
+    background: linear-gradient(-135deg, #1f1f98, #ffffff);
+}
+
+.card{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    color: rgb(53, 0, 160);
+    transform: translateY(-20px);
+}
